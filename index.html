@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Falta uno Más</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Organizador de Partidos de Fútbol</h1>
+
+  <form id="matchForm">
+    <input type="text" id="equipo1" placeholder="Nombre del Equipo 1" required>
+    <input type="text" id="equipo2" placeholder="Nombre del Equipo 2" required>
+    <input type="date" id="fecha" required>
+    <input type="time" id="hora" required>
+    <input type="text" id="lugar" placeholder="Lugar del partido" required>
+    <button type="submit">Agregar Partido</button>
+  </form>
+
+  <div class="match-list" id="matchList">
+    <!-- Aquí se mostrarán los partidos -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
